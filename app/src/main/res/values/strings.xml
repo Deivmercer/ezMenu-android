@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tesina</string>
+    <string name="dialog_camera_success">Camera found.</string>
+    <string name="dialog_camera_sucess_title">Success</string>
+    <string name="dialog_camera_fail">Camera not found.</string>
+    <string name="dialog_camera_fail_title">Error</string>
+</resources>
