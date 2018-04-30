@@ -3,8 +3,13 @@
     package="com.tesina.davemercer.tesina">
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-feature android:name="android.hardware.camera" android:required="false" />
-    <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
 
     <application
         android:allowBackup="true"
@@ -21,7 +26,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".CameraActivity"></activity>
-
+        <activity android:name=".CodeActivity"></activity>
     </application>
 
 </manifest>
