@@ -33,5 +33,14 @@
             android:layout_centerHorizontal="true"
             android:layout_below="@id/scanFormat" />
 
+        <TextView
+            android:id="@+id/test"
+            android:text="placeholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/scanContent" />
+
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
